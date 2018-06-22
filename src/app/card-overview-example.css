@@ -1,0 +1,65 @@
+/** No CSS for this example */
+.example-card {
+  border:1px blue solid;
+  margin: 4px;
+  border-collapse:collapse;
+  max-width:300px;
+   border-radius: 5px;
+     border-color: transparent   #2196f3   #2196f3   #2196f3;
+
+}
+::ng-deep .mat-card-header {
+    background-color: #673ab7 !important;
+    padding: 3px !important;
+    color:#fff;;
+      font-size: 1.3125rem;
+  font-weight: 500;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.16667em;
+}
+
+::ng-deep .mat-card {
+    padding: 0 !important;
+}
+
+::ng-deep .mat-card-content {
+    padding: 15px !important;
+    
+}
+
+::ng-deep .mat-card-actions {
+   padding-left:10px !important;
+   margin-left:5% !important; 
+   padding-bottom:15px !important;
+
+}
+
+
+mat-grid-tile {
+  background: lightblue;
+}
+#card-container {
+display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.header{
+  height: 33%;
+        background-color: red;
+        margin: 0px;
+        border: none;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color:white;
+        padding: 7px 10px 5px 10px;
+}
+
+span{
+  margin-left:12px;
+}
